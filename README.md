@@ -13,4 +13,4 @@
 
 - **Mission Analysis & Design**: The orbit and constellation design is modelled in STK as well as the ground stations. In the folder `orbit_constellation_design` it contains the STK model files.
 
-- **TT&C**: Communication System is an integral part of efficient data transmission for downlink and uplink between satellite and ground stations. In the folder `TTC_link_budget` it contains the script for link budget analysis.
+- **TT&C**: TT&C is an integral part of efficient data transmission for downlink and uplink between satellite and ground stations. In the folder `TTC_link_budget` it contains the script for link budget analysis.
