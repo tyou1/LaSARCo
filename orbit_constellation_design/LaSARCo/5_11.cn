@@ -1,0 +1,82 @@
+stk.v.12.0
+WrittenBy    STK_v12.7.1
+
+BEGIN Constellation
+
+    Name		 5_11
+    BEGIN Definition
+        Object		 Satellite/Satellite1101
+        Object		 Satellite/Satellite1102
+        Object		 Satellite/Satellite1103
+        Object		 Satellite/Satellite1104
+        Object		 Satellite/Satellite1105
+        Object		 Satellite/Satellite1106
+        Object		 Satellite/Satellite1107
+        Object		 Satellite/Satellite1108
+        Object		 Satellite/Satellite1109
+        Object		 Satellite/Satellite1110
+        Object		 Satellite/Satellite1111
+        Object		 Satellite/Satellite1201
+        Object		 Satellite/Satellite1202
+        Object		 Satellite/Satellite1203
+        Object		 Satellite/Satellite1204
+        Object		 Satellite/Satellite1205
+        Object		 Satellite/Satellite1206
+        Object		 Satellite/Satellite1207
+        Object		 Satellite/Satellite1208
+        Object		 Satellite/Satellite1209
+        Object		 Satellite/Satellite1210
+        Object		 Satellite/Satellite1211
+        Object		 Satellite/Satellite1301
+        Object		 Satellite/Satellite1302
+        Object		 Satellite/Satellite1303
+        Object		 Satellite/Satellite1304
+        Object		 Satellite/Satellite1305
+        Object		 Satellite/Satellite1306
+        Object		 Satellite/Satellite1307
+        Object		 Satellite/Satellite1308
+        Object		 Satellite/Satellite1309
+        Object		 Satellite/Satellite1310
+        Object		 Satellite/Satellite1311
+        Object		 Satellite/Satellite1401
+        Object		 Satellite/Satellite1402
+        Object		 Satellite/Satellite1403
+        Object		 Satellite/Satellite1404
+        Object		 Satellite/Satellite1405
+        Object		 Satellite/Satellite1406
+        Object		 Satellite/Satellite1407
+        Object		 Satellite/Satellite1408
+        Object		 Satellite/Satellite1409
+        Object		 Satellite/Satellite1410
+        Object		 Satellite/Satellite1411
+        Object		 Satellite/Satellite1501
+        Object		 Satellite/Satellite1502
+        Object		 Satellite/Satellite1503
+        Object		 Satellite/Satellite1504
+        Object		 Satellite/Satellite1505
+        Object		 Satellite/Satellite1506
+        Object		 Satellite/Satellite1507
+        Object		 Satellite/Satellite1508
+        Object		 Satellite/Satellite1509
+        Object		 Satellite/Satellite1510
+        Object		 Satellite/Satellite1511
+        Type		 Constellation
+        FromOperator		 Or
+        FromOrder		 1
+        ToOperator		 Or
+        ToOrder		 1
+        UseRoutingRulesFile		 No
+
+    END Definition
+
+    BEGIN Extensions
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN Desc
+        END Desc
+
+    END Extensions
+
+END Constellation

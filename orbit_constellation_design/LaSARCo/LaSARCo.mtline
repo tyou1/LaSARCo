@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MovieTimeline>
+  <Info>
+    <SavedBy>Movie Timeline v12.7.1</SavedBy>
+    <FileFormatVersion>2</FileFormatVersion>
+  </Info>
+  <Project>
+    <FullInterval>
+      <StartTime>0</StartTime>
+      <EndTime>172800</EndTime>
+    </FullInterval>
+    <ZoomInterval>
+      <StartTime>0</StartTime>
+      <EndTime>86400</EndTime>
+    </ZoomInterval>
+    <LastTrackNum>1</LastTrackNum>
+  </Project>
+  <Tracks>
+    <Track>
+      <Shot>
+        <Format>H264</Format>
+        <PathFileName>D:\TUM\SMD_WS2023\Mission_analysis\output\latest\2D_constellation_groundtrack_1_day</PathFileName>
+        <StartFrame>0</StartFrame>
+        <NumDigits>4</NumDigits>
+        <Bitrate>10000</Bitrate>
+        <Interval>
+          <StartTime>0</StartTime>
+          <EndTime>86400</EndTime>
+        </Interval>
+      </Shot>
+      <Collapsed>false</Collapsed>
+      <Selected>true</Selected>
+      <WatchedMovie>true</WatchedMovie>
+      <is2D>true</is2D>
+      <WindowID>1</WindowID>
+      <WindowCustomName />
+      <WindowWidth>1280</WindowWidth>
+      <WindowHeight>720</WindowHeight>
+      <PixelAspect>1</PixelAspect>
+      <PreviewWidth>0</PreviewWidth>
+      <WindowSizeName>HDTV - 720p - 1280x720</WindowSizeName>
+      <LensFlare>false</LensFlare>
+      <Vignette>false</Vignette>
+      <VignetteStrength>1</VignetteStrength>
+      <AntiAliasing>4</AntiAliasing>
+      <MotionBlur>false</MotionBlur>
+      <OffScreenRender>true</OffScreenRender>
+      <LastSubTrackNum>0</LastSubTrackNum>
+      <SubTracks>
+        <SubtrackTimeStep>
+          <Name>Time step</Name>
+          <Selected>false</Selected>
+          <Keyframes>
+            <Key>
+              <Time>0</Time>
+              <Selected>false</Selected>
+              <Value>19.2</Value>
+            </Key>
+          </Keyframes>
+        </SubtrackTimeStep>
+        <SubtrackCamera>
+          <Name>Camera</Name>
+          <Selected>false</Selected>
+          <Keyframes>
+            <Key>
+              <Time>0</Time>
+              <Selected>false</Selected>
+              <Type>MapStyle</Type>
+              <Name>DefaultWithBing</Name>
+            </Key>
+          </Keyframes>
+        </SubtrackCamera>
+      </SubTracks>
+    </Track>
+  </Tracks>
+  <Interface>
+    <Visible>true</Visible>
+  </Interface>
+</MovieTimeline>

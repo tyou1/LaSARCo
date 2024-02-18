@@ -1,0 +1,20 @@
+                                                                               6 Feb 2024 19:18:36
+Satellite-Satellite1101-To-Facility-Incheon_Leolut:  Access Summary Report
+
+
+Satellite1101-To-Incheon_Leolut
+-------------------------------
+                  Access        Start Time (UTCG)           Stop Time (UTCG)        Duration (sec)
+                  ------    ------------------------    ------------------------    --------------
+                       1    26 Dec 2023 14:21:53.317    26 Dec 2023 14:34:54.137           780.821
+                       2    26 Dec 2023 15:59:50.451    26 Dec 2023 16:12:21.937           751.486
+                       3    27 Dec 2023 02:24:02.670    27 Dec 2023 02:33:21.473           558.803
+                       4    27 Dec 2023 03:59:51.591    27 Dec 2023 04:13:12.388           800.797
+                       5    27 Dec 2023 05:38:35.831    27 Dec 2023 05:47:35.343           539.512
+
+Global Statistics
+-----------------
+Min Duration           5    27 Dec 2023 05:38:35.831    27 Dec 2023 05:47:35.343           539.512
+Max Duration           4    27 Dec 2023 03:59:51.591    27 Dec 2023 04:13:12.388           800.797
+Mean Duration                                                                              686.284
+Total Duration                                                                            3431.419

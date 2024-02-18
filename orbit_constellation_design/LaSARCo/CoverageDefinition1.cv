@@ -1,0 +1,339 @@
+stk.v.12.0
+WrittenBy    STK_v12.7.1
+
+BEGIN CoverageDefinition
+
+    Name		 CoverageDefinition1
+
+    BEGIN GridDefinition
+
+        VersionIndicator		 20080103
+        BEGIN Global
+        END Global
+        LatResolution		  4.0000000000000000e+00
+        LonResolution		  4.0000000000000000e+00
+        UsePolarRegions		 Yes
+        GridClass		 Target
+        PointLocationMethod		 EqualArea
+        CustomPtAltMethod		 ValueFromFile
+        CentralBody		 Earth
+        GroundAltMethod		 UseAltType
+        GroundAlt		 0
+        AltitudeMethod		 Altitude
+        BEGIN AltitudeList
+            0.000000
+        END AltitudeList
+
+    END GridDefinition
+
+    BEGIN AccessDefinition
+
+        DataRetention		 AllData
+        Convergence		 0.005
+        AbsValueConvergence		 1e-14
+        RelValueConvergence		 1e-08
+        MaxTimeStep		 360
+        MinTimeStep		 0.01
+        UseLightTimeDelay		 No
+        TimeSense		 PerAsset
+        DetectEventsUsingSamplesOnly		 No
+        AutoRecompute		 Yes
+        UseAllAssetAccess		 No
+        AssetSatisType		 AtLeast
+        AssetSatisThreshold		 1
+        AccessSaveMode		 SaveWith
+        RegionAccessAccel		 Auto
+
+    END AccessDefinition
+
+    BEGIN AssetList
+
+        Constellation/5_10		 Active
+        Required		 No
+        UseConstConstraints		 No
+        BEGIN SubAssets
+            Satellite/Satellite1101/Sensor/SAR3		 Active
+            Required		 No
+            Satellite/Satellite1101/Sensor/SAR4		 Active
+            Required		 No
+            Satellite/Satellite1102/Sensor/SAR5		 Active
+            Required		 No
+            Satellite/Satellite1102/Sensor/SAR6		 Active
+            Required		 No
+            Satellite/Satellite1103/Sensor/SAR7		 Active
+            Required		 No
+            Satellite/Satellite1103/Sensor/SAR8		 Active
+            Required		 No
+            Satellite/Satellite1104/Sensor/SAR9		 Active
+            Required		 No
+            Satellite/Satellite1104/Sensor/SAR10		 Active
+            Required		 No
+            Satellite/Satellite1105/Sensor/SAR11		 Active
+            Required		 No
+            Satellite/Satellite1105/Sensor/SAR12		 Active
+            Required		 No
+            Satellite/Satellite1106/Sensor/SAR13		 Active
+            Required		 No
+            Satellite/Satellite1106/Sensor/SAR14		 Active
+            Required		 No
+            Satellite/Satellite1107/Sensor/SAR15		 Active
+            Required		 No
+            Satellite/Satellite1107/Sensor/SAR16		 Active
+            Required		 No
+            Satellite/Satellite1108/Sensor/SAR17		 Active
+            Required		 No
+            Satellite/Satellite1108/Sensor/SAR18		 Active
+            Required		 No
+            Satellite/Satellite1109/Sensor/SAR19		 Active
+            Required		 No
+            Satellite/Satellite1109/Sensor/SAR20		 Active
+            Required		 No
+            Satellite/Satellite1110/Sensor/SAR21		 Active
+            Required		 No
+            Satellite/Satellite1110/Sensor/SAR22		 Active
+            Required		 No
+            Satellite/Satellite1201/Sensor/SAR23		 Active
+            Required		 No
+            Satellite/Satellite1201/Sensor/SAR24		 Active
+            Required		 No
+            Satellite/Satellite1202/Sensor/SAR25		 Active
+            Required		 No
+            Satellite/Satellite1202/Sensor/SAR26		 Active
+            Required		 No
+            Satellite/Satellite1203/Sensor/SAR27		 Active
+            Required		 No
+            Satellite/Satellite1203/Sensor/SAR28		 Active
+            Required		 No
+            Satellite/Satellite1204/Sensor/SAR29		 Active
+            Required		 No
+            Satellite/Satellite1204/Sensor/SAR30		 Active
+            Required		 No
+            Satellite/Satellite1205/Sensor/SAR31		 Active
+            Required		 No
+            Satellite/Satellite1205/Sensor/SAR32		 Active
+            Required		 No
+            Satellite/Satellite1206/Sensor/SAR33		 Active
+            Required		 No
+            Satellite/Satellite1206/Sensor/SAR34		 Active
+            Required		 No
+            Satellite/Satellite1207/Sensor/SAR35		 Active
+            Required		 No
+            Satellite/Satellite1207/Sensor/SAR36		 Active
+            Required		 No
+            Satellite/Satellite1208/Sensor/SAR37		 Active
+            Required		 No
+            Satellite/Satellite1208/Sensor/SAR38		 Active
+            Required		 No
+            Satellite/Satellite1209/Sensor/SAR39		 Active
+            Required		 No
+            Satellite/Satellite1209/Sensor/SAR40		 Active
+            Required		 No
+            Satellite/Satellite1210/Sensor/SAR41		 Active
+            Required		 No
+            Satellite/Satellite1210/Sensor/SAR42		 Active
+            Required		 No
+            Satellite/Satellite1301/Sensor/SAR43		 Active
+            Required		 No
+            Satellite/Satellite1301/Sensor/SAR44		 Active
+            Required		 No
+            Satellite/Satellite1302/Sensor/SAR45		 Active
+            Required		 No
+            Satellite/Satellite1302/Sensor/SAR46		 Active
+            Required		 No
+            Satellite/Satellite1303/Sensor/SAR47		 Active
+            Required		 No
+            Satellite/Satellite1303/Sensor/SAR48		 Active
+            Required		 No
+            Satellite/Satellite1304/Sensor/SAR49		 Active
+            Required		 No
+            Satellite/Satellite1304/Sensor/SAR50		 Active
+            Required		 No
+            Satellite/Satellite1305/Sensor/SAR51		 Active
+            Required		 No
+            Satellite/Satellite1305/Sensor/SAR52		 Active
+            Required		 No
+            Satellite/Satellite1306/Sensor/SAR53		 Active
+            Required		 No
+            Satellite/Satellite1306/Sensor/SAR54		 Active
+            Required		 No
+            Satellite/Satellite1307/Sensor/SAR55		 Active
+            Required		 No
+            Satellite/Satellite1307/Sensor/SAR56		 Active
+            Required		 No
+            Satellite/Satellite1308/Sensor/SAR57		 Active
+            Required		 No
+            Satellite/Satellite1308/Sensor/SAR58		 Active
+            Required		 No
+            Satellite/Satellite1309/Sensor/SAR59		 Active
+            Required		 No
+            Satellite/Satellite1309/Sensor/SAR60		 Active
+            Required		 No
+            Satellite/Satellite1310/Sensor/SAR61		 Active
+            Required		 No
+            Satellite/Satellite1310/Sensor/SAR62		 Active
+            Required		 No
+            Satellite/Satellite1401/Sensor/SAR63		 Active
+            Required		 No
+            Satellite/Satellite1401/Sensor/SAR64		 Active
+            Required		 No
+            Satellite/Satellite1402/Sensor/SAR65		 Active
+            Required		 No
+            Satellite/Satellite1402/Sensor/SAR66		 Active
+            Required		 No
+            Satellite/Satellite1403/Sensor/SAR67		 Active
+            Required		 No
+            Satellite/Satellite1403/Sensor/SAR68		 Active
+            Required		 No
+            Satellite/Satellite1404/Sensor/SAR69		 Active
+            Required		 No
+            Satellite/Satellite1404/Sensor/SAR70		 Active
+            Required		 No
+            Satellite/Satellite1405/Sensor/SAR71		 Active
+            Required		 No
+            Satellite/Satellite1405/Sensor/SAR72		 Active
+            Required		 No
+            Satellite/Satellite1406/Sensor/SAR73		 Active
+            Required		 No
+            Satellite/Satellite1406/Sensor/SAR74		 Active
+            Required		 No
+            Satellite/Satellite1407/Sensor/SAR75		 Active
+            Required		 No
+            Satellite/Satellite1407/Sensor/SAR76		 Active
+            Required		 No
+            Satellite/Satellite1408/Sensor/SAR77		 Active
+            Required		 No
+            Satellite/Satellite1408/Sensor/SAR78		 Active
+            Required		 No
+            Satellite/Satellite1409/Sensor/SAR79		 Active
+            Required		 No
+            Satellite/Satellite1409/Sensor/SAR80		 Active
+            Required		 No
+            Satellite/Satellite1410/Sensor/SAR81		 Active
+            Required		 No
+            Satellite/Satellite1410/Sensor/SAR82		 Active
+            Required		 No
+            Satellite/Satellite1501/Sensor/SAR83		 Active
+            Required		 No
+            Satellite/Satellite1501/Sensor/SAR84		 Active
+            Required		 No
+            Satellite/Satellite1502/Sensor/SAR85		 Active
+            Required		 No
+            Satellite/Satellite1502/Sensor/SAR86		 Active
+            Required		 No
+            Satellite/Satellite1503/Sensor/SAR87		 Active
+            Required		 No
+            Satellite/Satellite1503/Sensor/SAR88		 Active
+            Required		 No
+            Satellite/Satellite1504/Sensor/SAR89		 Active
+            Required		 No
+            Satellite/Satellite1504/Sensor/SAR90		 Active
+            Required		 No
+            Satellite/Satellite1505/Sensor/SAR91		 Active
+            Required		 No
+            Satellite/Satellite1505/Sensor/SAR92		 Active
+            Required		 No
+            Satellite/Satellite1506/Sensor/SAR93		 Active
+            Required		 No
+            Satellite/Satellite1506/Sensor/SAR94		 Active
+            Required		 No
+            Satellite/Satellite1507/Sensor/SAR95		 Active
+            Required		 No
+            Satellite/Satellite1507/Sensor/SAR96		 Active
+            Required		 No
+            Satellite/Satellite1508/Sensor/SAR97		 Active
+            Required		 No
+            Satellite/Satellite1508/Sensor/SAR98		 Active
+            Required		 No
+            Satellite/Satellite1509/Sensor/SAR99		 Active
+            Required		 No
+            Satellite/Satellite1509/Sensor/SAR100		 Active
+            Required		 No
+            Satellite/Satellite1510/Sensor/SAR101		 Active
+            Required		 No
+            Satellite/Satellite1510/Sensor/SAR102		 Active
+            Required		 No
+        END SubAssets
+
+    END AssetList
+
+    BEGIN Interval
+
+        AccStart		 26 Dec 2023 11:00:00.000000000
+        AccStop		 28 Dec 2023 11:00:00.000000000
+        UseScenarioInterval		 No
+        AccIntervalPtr		
+        BEGIN EVENTINTERVAL
+            EventInterval		
+            BEGIN EVENTINTERVAL
+                Type		 EVENTINTERVAL_LINKTO
+                Name		 AnalysisInterval
+                AbsolutePath		 Scenario
+            END EVENTINTERVAL
+            IntervalState		 Implicit
+        END EVENTINTERVAL
+
+
+    END Interval
+
+    BEGIN SavedAccesses
+        FileName		 CoverageDefinition1.cva
+    END SavedAccesses
+
+    BEGIN Extensions
+
+        BEGIN ExternData
+        END ExternData
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN Desc
+        END Desc
+
+        BEGIN Crdn
+        END Crdn
+
+        BEGIN Graphics
+
+            BEGIN Attributes
+
+                GridMarkerStyle		 1
+                GridColor		 #ff00ff
+                ProgressColor		 #0000ff
+                SatisfactionColor		 #ffff00
+                GridTranslucency		 0.5
+                SatisfactionTranslucency		 0.7000000000000001
+
+            END Attributes
+
+            BEGIN Graphics
+
+                Show		 No
+                ShowGrid		 Yes
+                ShowRegions		 No
+                ShowRegionsText		 No
+                ShowPoints		 Yes
+                FillPoints		 No
+                ShowProgress		 Yes
+                ShowSatisfaction		 No
+
+            END Graphics
+        END Graphics
+
+        BEGIN VO
+        END VO
+
+    END Extensions
+
+    BEGIN SubObjects
+
+        Class FigureOfMerit
+
+            Revisit_time		
+
+        END Class
+
+    END SubObjects
+
+END CoverageDefinition
+

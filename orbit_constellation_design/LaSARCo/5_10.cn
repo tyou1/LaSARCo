@@ -1,0 +1,127 @@
+stk.v.12.0
+WrittenBy    STK_v12.7.1
+
+BEGIN Constellation
+
+    Name		 5_10
+    BEGIN Definition
+        Object		 Satellite/Satellite1101/Sensor/SAR3
+        Object		 Satellite/Satellite1101/Sensor/SAR4
+        Object		 Satellite/Satellite1102/Sensor/SAR5
+        Object		 Satellite/Satellite1102/Sensor/SAR6
+        Object		 Satellite/Satellite1103/Sensor/SAR7
+        Object		 Satellite/Satellite1103/Sensor/SAR8
+        Object		 Satellite/Satellite1104/Sensor/SAR9
+        Object		 Satellite/Satellite1104/Sensor/SAR10
+        Object		 Satellite/Satellite1105/Sensor/SAR11
+        Object		 Satellite/Satellite1105/Sensor/SAR12
+        Object		 Satellite/Satellite1106/Sensor/SAR13
+        Object		 Satellite/Satellite1106/Sensor/SAR14
+        Object		 Satellite/Satellite1107/Sensor/SAR15
+        Object		 Satellite/Satellite1107/Sensor/SAR16
+        Object		 Satellite/Satellite1108/Sensor/SAR17
+        Object		 Satellite/Satellite1108/Sensor/SAR18
+        Object		 Satellite/Satellite1109/Sensor/SAR19
+        Object		 Satellite/Satellite1109/Sensor/SAR20
+        Object		 Satellite/Satellite1110/Sensor/SAR21
+        Object		 Satellite/Satellite1110/Sensor/SAR22
+        Object		 Satellite/Satellite1201/Sensor/SAR23
+        Object		 Satellite/Satellite1201/Sensor/SAR24
+        Object		 Satellite/Satellite1202/Sensor/SAR25
+        Object		 Satellite/Satellite1202/Sensor/SAR26
+        Object		 Satellite/Satellite1203/Sensor/SAR27
+        Object		 Satellite/Satellite1203/Sensor/SAR28
+        Object		 Satellite/Satellite1204/Sensor/SAR29
+        Object		 Satellite/Satellite1204/Sensor/SAR30
+        Object		 Satellite/Satellite1205/Sensor/SAR31
+        Object		 Satellite/Satellite1205/Sensor/SAR32
+        Object		 Satellite/Satellite1206/Sensor/SAR33
+        Object		 Satellite/Satellite1206/Sensor/SAR34
+        Object		 Satellite/Satellite1207/Sensor/SAR35
+        Object		 Satellite/Satellite1207/Sensor/SAR36
+        Object		 Satellite/Satellite1208/Sensor/SAR37
+        Object		 Satellite/Satellite1208/Sensor/SAR38
+        Object		 Satellite/Satellite1209/Sensor/SAR39
+        Object		 Satellite/Satellite1209/Sensor/SAR40
+        Object		 Satellite/Satellite1210/Sensor/SAR41
+        Object		 Satellite/Satellite1210/Sensor/SAR42
+        Object		 Satellite/Satellite1301/Sensor/SAR43
+        Object		 Satellite/Satellite1301/Sensor/SAR44
+        Object		 Satellite/Satellite1302/Sensor/SAR45
+        Object		 Satellite/Satellite1302/Sensor/SAR46
+        Object		 Satellite/Satellite1303/Sensor/SAR47
+        Object		 Satellite/Satellite1303/Sensor/SAR48
+        Object		 Satellite/Satellite1304/Sensor/SAR49
+        Object		 Satellite/Satellite1304/Sensor/SAR50
+        Object		 Satellite/Satellite1305/Sensor/SAR51
+        Object		 Satellite/Satellite1305/Sensor/SAR52
+        Object		 Satellite/Satellite1306/Sensor/SAR53
+        Object		 Satellite/Satellite1306/Sensor/SAR54
+        Object		 Satellite/Satellite1307/Sensor/SAR55
+        Object		 Satellite/Satellite1307/Sensor/SAR56
+        Object		 Satellite/Satellite1308/Sensor/SAR57
+        Object		 Satellite/Satellite1308/Sensor/SAR58
+        Object		 Satellite/Satellite1309/Sensor/SAR59
+        Object		 Satellite/Satellite1309/Sensor/SAR60
+        Object		 Satellite/Satellite1310/Sensor/SAR61
+        Object		 Satellite/Satellite1310/Sensor/SAR62
+        Object		 Satellite/Satellite1401/Sensor/SAR63
+        Object		 Satellite/Satellite1401/Sensor/SAR64
+        Object		 Satellite/Satellite1402/Sensor/SAR65
+        Object		 Satellite/Satellite1402/Sensor/SAR66
+        Object		 Satellite/Satellite1403/Sensor/SAR67
+        Object		 Satellite/Satellite1403/Sensor/SAR68
+        Object		 Satellite/Satellite1404/Sensor/SAR69
+        Object		 Satellite/Satellite1404/Sensor/SAR70
+        Object		 Satellite/Satellite1405/Sensor/SAR71
+        Object		 Satellite/Satellite1405/Sensor/SAR72
+        Object		 Satellite/Satellite1406/Sensor/SAR73
+        Object		 Satellite/Satellite1406/Sensor/SAR74
+        Object		 Satellite/Satellite1407/Sensor/SAR75
+        Object		 Satellite/Satellite1407/Sensor/SAR76
+        Object		 Satellite/Satellite1408/Sensor/SAR77
+        Object		 Satellite/Satellite1408/Sensor/SAR78
+        Object		 Satellite/Satellite1409/Sensor/SAR79
+        Object		 Satellite/Satellite1409/Sensor/SAR80
+        Object		 Satellite/Satellite1410/Sensor/SAR81
+        Object		 Satellite/Satellite1410/Sensor/SAR82
+        Object		 Satellite/Satellite1501/Sensor/SAR83
+        Object		 Satellite/Satellite1501/Sensor/SAR84
+        Object		 Satellite/Satellite1502/Sensor/SAR85
+        Object		 Satellite/Satellite1502/Sensor/SAR86
+        Object		 Satellite/Satellite1503/Sensor/SAR87
+        Object		 Satellite/Satellite1503/Sensor/SAR88
+        Object		 Satellite/Satellite1504/Sensor/SAR89
+        Object		 Satellite/Satellite1504/Sensor/SAR90
+        Object		 Satellite/Satellite1505/Sensor/SAR91
+        Object		 Satellite/Satellite1505/Sensor/SAR92
+        Object		 Satellite/Satellite1506/Sensor/SAR93
+        Object		 Satellite/Satellite1506/Sensor/SAR94
+        Object		 Satellite/Satellite1507/Sensor/SAR95
+        Object		 Satellite/Satellite1507/Sensor/SAR96
+        Object		 Satellite/Satellite1508/Sensor/SAR97
+        Object		 Satellite/Satellite1508/Sensor/SAR98
+        Object		 Satellite/Satellite1509/Sensor/SAR99
+        Object		 Satellite/Satellite1509/Sensor/SAR100
+        Object		 Satellite/Satellite1510/Sensor/SAR101
+        Object		 Satellite/Satellite1510/Sensor/SAR102
+        Type		 Constellation
+        FromOperator		 Or
+        FromOrder		 1
+        ToOperator		 Or
+        ToOrder		 1
+        UseRoutingRulesFile		 No
+
+    END Definition
+
+    BEGIN Extensions
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN Desc
+        END Desc
+
+    END Extensions
+
+END Constellation

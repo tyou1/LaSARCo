@@ -1,0 +1,497 @@
+stk.v.12.0
+WrittenBy    STK_v12.7.1
+BEGIN Access
+    Scenario/LaSARCo/Satellite/Satellite1101
+    Scenario/LaSARCo/Facility/Redu_Station
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Custom
+    CustomTimeInterval		
+    BEGIN EVENTINTERVAL
+        BEGIN Interval
+            Start		 26 Dec 2023 11:00:00.000000000
+            Stop		 27 Dec 2023 11:00:00.000000000
+        END Interval
+        IntervalState		 Explicit
+    END EVENTINTERVAL
+
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2023-12-26T11:00:00.000000000 2023-12-27T11:00:00.000000000
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2023-12-26T11:29:40.637454543 2023-12-26T11:40:46.633040942
+        2023-12-26T13:07:19.990270802 2023-12-26T13:19:05.759210163
+        2023-12-26T14:46:26.863399674 2023-12-26T14:52:42.834093494
+        2023-12-26T21:04:15.510724681 2023-12-26T21:13:14.575963539
+        2023-12-26T22:40:06.935905711 2023-12-26T22:51:45.945365141
+        2023-12-27T00:18:38.117246193 2023-12-27T00:29:01.511005573
+        2023-12-27T10:33:45.917932429 2023-12-27T10:41:47.237514987
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2023-12-26T11:00:00.000000000 2023-12-27T11:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2023-12-26T11:28:49.762278756 2023-12-26T11:42:48.851568927
+                        2023-12-26T13:06:35.253824233 2023-12-26T13:20:09.165927333
+                        2023-12-26T14:45:16.867378014 2023-12-26T14:53:54.414904855
+                        2023-12-26T21:02:53.602597412 2023-12-26T21:14:10.117627959
+                        2023-12-26T22:38:09.872189642 2023-12-26T22:52:26.249780200
+                        2023-12-27T00:17:03.817159462 2023-12-27T00:29:43.832340417
+                        2023-12-27T10:32:26.301149981 2023-12-27T10:44:09.977023143
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.068
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 AzElMask
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 2
+
+                    BEGIN ConstraintInputTimes
+
+                        2023-12-26T11:28:49.762278756 2023-12-26T11:42:48.851568927
+                        2023-12-26T13:06:35.253824233 2023-12-26T13:20:09.165927333
+                        2023-12-26T14:45:16.867378014 2023-12-26T14:53:54.414904855
+                        2023-12-26T21:02:53.602597412 2023-12-26T21:14:10.117627959
+                        2023-12-26T22:38:09.872189642 2023-12-26T22:52:26.249780200
+                        2023-12-27T00:17:03.817159462 2023-12-27T00:29:43.832340417
+                        2023-12-27T10:32:26.301149981 2023-12-27T10:44:09.977023143
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2023-12-26T11:29:40.637454543 2023-12-26T11:40:46.633040942
+                        2023-12-26T13:07:19.990270802 2023-12-26T13:19:05.759210163
+                        2023-12-26T14:46:26.863399674 2023-12-26T14:52:42.834093494
+                        2023-12-26T21:04:15.510724681 2023-12-26T21:13:14.575963539
+                        2023-12-26T22:40:06.935905711 2023-12-26T22:51:45.945365141
+                        2023-12-27T00:18:38.117246193 2023-12-27T00:29:01.511005573
+                        2023-12-27T10:33:45.917932429 2023-12-27T10:41:47.237514987
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/LaSARCo/Satellite/Satellite1101
+    Scenario/LaSARCo/Facility/Svalsat_SG_1_STDN_SG1S
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Custom
+    CustomTimeInterval		
+    BEGIN EVENTINTERVAL
+        BEGIN Interval
+            Start		 26 Dec 2023 11:00:00.000000000
+            Stop		 27 Dec 2023 11:00:00.000000000
+        END Interval
+        IntervalState		 Explicit
+    END EVENTINTERVAL
+
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2023-12-26T11:00:00.000000000 2023-12-27T11:00:00.000000000
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2023-12-26T11:21:07.438237333 2023-12-26T11:33:18.859393503
+        2023-12-26T12:59:13.566787875 2023-12-26T13:12:49.187564219
+        2023-12-26T14:37:21.013347845 2023-12-26T14:50:58.188630049
+        2023-12-26T16:14:59.811316927 2023-12-26T16:28:18.682245723
+        2023-12-26T17:52:13.810196294 2023-12-26T18:05:43.056024422
+        2023-12-26T19:29:35.555273569 2023-12-26T19:43:19.049608891
+        2023-12-26T21:08:06.286048316 2023-12-26T21:21:08.266887330
+        2023-12-26T22:46:13.822425026 2023-12-26T22:59:21.089757455
+        2023-12-27T00:25:25.261949827 2023-12-27T00:37:45.983851469
+        2023-12-27T02:05:32.029263714 2023-12-27T02:16:32.447303182
+        2023-12-27T03:46:21.146021433 2023-12-27T03:55:52.492228336
+        2023-12-27T05:26:51.872846072 2023-12-27T05:35:18.791312141
+        2023-12-27T07:06:18.083942795 2023-12-27T07:16:16.251287726
+        2023-12-27T08:45:15.607644828 2023-12-27T08:56:57.321823915
+        2023-12-27T10:23:47.673738762 2023-12-27T10:36:12.268259205
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2023-12-26T11:00:00.000000000 2023-12-27T11:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2023-12-26T11:21:02.347039358 2023-12-26T11:34:49.203421610
+                        2023-12-26T12:59:07.355151165 2023-12-26T13:13:12.963220504
+                        2023-12-26T14:36:55.628832703 2023-12-26T14:50:58.188630049
+                        2023-12-26T16:14:28.118048823 2023-12-26T16:28:23.571797337
+                        2023-12-26T17:51:51.270283284 2023-12-26T18:05:47.942827935
+                        2023-12-26T19:29:19.583748415 2023-12-26T19:43:23.921046619
+                        2023-12-26T21:07:12.504164611 2023-12-26T21:21:16.221910624
+                        2023-12-26T22:45:47.704656931 2023-12-26T22:59:25.207994689
+                        2023-12-27T00:25:15.277982321 2023-12-27T00:37:51.354479613
+                        2023-12-27T02:05:32.029263714 2023-12-27T02:16:39.114368856
+                        2023-12-27T03:46:13.427306949 2023-12-27T03:56:00.226300515
+                        2023-12-27T05:26:35.894602571 2023-12-27T05:36:07.828127356
+                        2023-12-27T07:06:12.112267386 2023-12-27T07:16:47.852909019
+                        2023-12-27T08:45:09.595656083 2023-12-27T08:57:17.101713825
+                        2023-12-27T10:23:42.348215085 2023-12-27T10:37:02.820394676
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.068
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 AzElMask
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 2
+
+                    BEGIN ConstraintInputTimes
+
+                        2023-12-26T11:21:02.347039358 2023-12-26T11:34:49.203421610
+                        2023-12-26T12:59:07.355151165 2023-12-26T13:13:12.963220504
+                        2023-12-26T14:36:55.628832703 2023-12-26T14:50:58.188630049
+                        2023-12-26T16:14:28.118048823 2023-12-26T16:28:23.571797337
+                        2023-12-26T17:51:51.270283284 2023-12-26T18:05:47.942827935
+                        2023-12-26T19:29:19.583748415 2023-12-26T19:43:23.921046619
+                        2023-12-26T21:07:12.504164611 2023-12-26T21:21:16.221910624
+                        2023-12-26T22:45:47.704656931 2023-12-26T22:59:25.207994689
+                        2023-12-27T00:25:15.277982321 2023-12-27T00:37:51.354479613
+                        2023-12-27T02:05:32.029263714 2023-12-27T02:16:39.114368856
+                        2023-12-27T03:46:13.427306949 2023-12-27T03:56:00.226300515
+                        2023-12-27T05:26:35.894602571 2023-12-27T05:36:07.828127356
+                        2023-12-27T07:06:12.112267386 2023-12-27T07:16:47.852909019
+                        2023-12-27T08:45:09.595656083 2023-12-27T08:57:17.101713825
+                        2023-12-27T10:23:42.348215085 2023-12-27T10:37:02.820394676
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2023-12-26T11:21:07.438237333 2023-12-26T11:33:18.859393503
+                        2023-12-26T12:59:13.566787875 2023-12-26T13:12:49.187564219
+                        2023-12-26T14:37:21.013347845 2023-12-26T14:50:58.188630049
+                        2023-12-26T16:14:59.811316927 2023-12-26T16:28:18.682245723
+                        2023-12-26T17:52:13.810196294 2023-12-26T18:05:43.056024422
+                        2023-12-26T19:29:35.555273569 2023-12-26T19:43:19.049608891
+                        2023-12-26T21:08:06.286048316 2023-12-26T21:21:08.266887330
+                        2023-12-26T22:46:13.822425026 2023-12-26T22:59:21.089757455
+                        2023-12-27T00:25:25.261949827 2023-12-27T00:37:45.983851469
+                        2023-12-27T02:05:32.029263714 2023-12-27T02:16:32.447303182
+                        2023-12-27T03:46:21.146021433 2023-12-27T03:55:52.492228336
+                        2023-12-27T05:26:51.872846072 2023-12-27T05:35:18.791312141
+                        2023-12-27T07:06:18.083942795 2023-12-27T07:16:16.251287726
+                        2023-12-27T08:45:15.607644828 2023-12-27T08:56:57.321823915
+                        2023-12-27T10:23:47.673738762 2023-12-27T10:36:12.268259205
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+
+BEGIN Access
+    Scenario/LaSARCo/Satellite/Satellite1101
+    Scenario/LaSARCo/Facility/JPL
+
+    IsComputed		 Yes
+    SaveComputedData		 Yes
+    ComputationMode		 1
+    UpdateOnReference		 Yes
+    DupIsDifferent		 No
+    UIOrderReversed		 No
+    UITimePeriod		 Custom
+    CustomTimeInterval		
+    BEGIN EVENTINTERVAL
+        BEGIN Interval
+            Start		 26 Dec 2023 11:00:00.000000000
+            Stop		 27 Dec 2023 11:00:00.000000000
+        END Interval
+        IntervalState		 Explicit
+    END EVENTINTERVAL
+
+    UseLightTimeDelay		 Yes
+    ClockHost		 Base
+    TimeSense		 Transmit
+    AberrationType		 Annual
+    TimeDelayConvergence		 5e-05
+    SetMaxStepFromInsts		 Yes
+    MaxTimeStep		 360
+    MinTimeStep		 0.01
+    TimeConvergence		 0.005
+    AbsValueConvergence		 1e-14
+    RelValueConvergence		 1e-08
+    DetectEventsUsingSamplesOnly		 No
+
+    BEGIN ConsideredIntervals
+
+        2023-12-26T11:00:00.000000000 2023-12-27T11:00:00.000000000
+
+    END ConsideredIntervals
+
+    BEGIN AccessIntervals
+
+        2023-12-26T19:50:12.064978843 2023-12-26T20:00:50.491257447
+        2023-12-26T21:29:47.883678253 2023-12-26T21:35:46.326611398
+        2023-12-27T06:48:13.833881395 2023-12-27T06:58:40.355919214
+        2023-12-27T08:27:15.084564282 2023-12-27T08:35:17.091068262
+
+    END AccessIntervals
+
+    BEGIN StageList
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.34
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 LineOfSight
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 1
+
+                    BEGIN ConstraintInputTimes
+
+                        2023-12-26T11:00:00.000000000 2023-12-27T11:00:00.000000000
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2023-12-26T18:12:48.507599003 2023-12-26T18:18:02.737844010
+                        2023-12-26T19:46:45.572577410 2023-12-26T20:00:54.285064385
+                        2023-12-26T21:25:07.142890547 2023-12-26T21:36:49.414890472
+                        2023-12-27T05:16:50.420099808 2023-12-27T05:20:28.463283706
+                        2023-12-27T06:48:05.340609591 2023-12-27T07:01:48.564772157
+                        2023-12-27T08:26:16.945494851 2023-12-27T08:38:58.254656529
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+        BEGIN Stage
+
+            MaxRelMotion		 0.068
+
+            BEGIN ConstraintList
+
+                BEGIN Constraint
+
+                    Name		 AzElMask
+                    Instance		 Object2
+                    Action		 IncludeIntervals
+                    Type		 ZeroBound
+                    ComputationID		 2
+
+                    BEGIN ConstraintInputTimes
+
+                        2023-12-26T18:12:48.507599003 2023-12-26T18:18:02.737844010
+                        2023-12-26T19:46:45.572577410 2023-12-26T20:00:54.285064385
+                        2023-12-26T21:25:07.142890547 2023-12-26T21:36:49.414890472
+                        2023-12-27T05:16:50.420099808 2023-12-27T05:20:28.463283706
+                        2023-12-27T06:48:05.340609591 2023-12-27T07:01:48.564772157
+                        2023-12-27T08:26:16.945494851 2023-12-27T08:38:58.254656529
+
+                    END ConstraintInputTimes
+
+                    StartConstrainedByAvailability		 No
+                    StopConstrainedByAvailability		 No
+
+                    BEGIN ConstraintSatisfaction
+
+                        2023-12-26T19:50:12.064978843 2023-12-26T20:00:50.491257447
+                        2023-12-26T21:29:47.883678253 2023-12-26T21:35:46.326611398
+                        2023-12-27T06:48:13.833881395 2023-12-27T06:58:40.355919214
+                        2023-12-27T08:27:15.084564282 2023-12-27T08:35:17.091068262
+
+                    END ConstraintSatisfaction
+
+                END Constraint
+
+            END ConstraintList
+
+        END Stage
+
+
+    END StageList
+
+    Show		 Yes
+    Inherit		 Yes
+    ShowIV		 Yes
+    ShowLineGfx		 Yes
+    ShowHiliteGfx		 Yes
+    LineWidth		 1
+
+    BEGIN Crdn
+    END Crdn
+
+END Access
+

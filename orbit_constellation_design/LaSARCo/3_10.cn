@@ -1,0 +1,33 @@
+stk.v.12.0
+WrittenBy    STK_v12.6.0
+
+BEGIN Constellation
+
+    Name		 3_10
+    BEGIN Definition
+        Type		 Constellation
+        FromOperator		 Or
+        FromOrder		 1
+        ToOperator		 Or
+        ToOrder		 1
+        UseRoutingRulesFile		 No
+
+    END Definition
+
+    BEGIN Extensions
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN Desc
+            BEGIN ShortText
+
+            END ShortText
+            BEGIN LongText
+
+            END LongText
+        END Desc
+
+    END Extensions
+
+END Constellation

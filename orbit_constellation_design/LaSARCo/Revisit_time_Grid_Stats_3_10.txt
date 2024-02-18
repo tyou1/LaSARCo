@@ -1,0 +1,65 @@
+                                                 31 Dec 2023 16:43:42
+FigureOfMerit-Revisit_time
+
+
+                         Coverage Properties                         
+---------------------------------------------------------------------
+Global Coverage                                                      
+Grid Altitude: 0.0000 (km)                                           
+Ground Altitude set from grid altitude reference (On ellipsoid)      
+Resolution: 4.0000 (deg)                                             
+Number of Points: 2588                                               
+Assets required for a valid access: At Least 1                       
+Assigned Assets:                                                     
+    Satellite/Satellite1207:    Active                               
+    Satellite/Satellite1101/Sensor/SAR1_FOV2:    Active              
+    Satellite/Satellite1105/Sensor/SAR1_FOV6:    Active              
+    Satellite/Satellite1102/Sensor/SAR1_FOV3:    Active              
+    Satellite/Satellite1103/Sensor/SAR1_FOV4:    Active              
+    Satellite/Satellite1104/Sensor/SAR1_FOV5:    Active              
+    Satellite/Satellite1106/Sensor/SAR1_FOV7:    Active              
+    Satellite/Satellite1107/Sensor/SAR1_FOV8:    Active              
+    Satellite/Satellite1108/Sensor/SAR1_FOV9:    Active              
+    Satellite/Satellite1109/Sensor/SAR1_FOV10:    Active             
+    Satellite/Satellite1110/Sensor/SAR1_FOV11:    Active             
+    Satellite/Satellite1201/Sensor/SAR1_FOV12:    Active             
+    Satellite/Satellite1202/Sensor/SAR1_FOV13:    Active             
+    Satellite/Satellite1203/Sensor/SAR1_FOV14:    Active             
+    Satellite/Satellite1204/Sensor/SAR1_FOV15:    Active             
+    Satellite/Satellite1205/Sensor/SAR1_FOV16:    Active             
+    Satellite/Satellite1206/Sensor/SAR1_FOV17:    Active             
+    Satellite/Satellite1207/Sensor/SAR1_FOV18:    Active             
+    Satellite/Satellite1208/Sensor/SAR1_FOV19:    Active             
+    Satellite/Satellite1209/Sensor/SAR1_FOV20:    Active             
+    Satellite/Satellite1210/Sensor/SAR1_FOV21:    Active             
+    Satellite/Satellite1301/Sensor/SAR1_FOV22:    Active             
+    Satellite/Satellite1302/Sensor/SAR1_FOV23:    Active             
+    Satellite/Satellite1303/Sensor/SAR1_FOV24:    Active             
+    Satellite/Satellite1304/Sensor/SAR1_FOV25:    Active             
+    Satellite/Satellite1305/Sensor/SAR1_FOV26:    Active             
+    Satellite/Satellite1306/Sensor/SAR1_FOV27:    Active             
+    Satellite/Satellite1307/Sensor/SAR1_FOV28:    Active             
+    Satellite/Satellite1308/Sensor/SAR1_FOV29:    Active             
+    Satellite/Satellite1309/Sensor/SAR1_FOV30:    Active             
+    Satellite/Satellite1310/Sensor/SAR1_FOV31:    Active             
+Access Interval: 26 Dec 2023 11:00:00.000 to 27 Dec 2023 11:00:00.000
+Regional Acceleration: Automatic                                     
+Light time delay: Ignored                                            
+Maximum Sampling Time Step: 360.000 secs                             
+Minimum Sampling Time Step: 0.010 secs                               
+Time Convergence: 5.000e-03 secs                                     
+Value Convergence: Relative 1.000e-08 - Absolute 1.000e-14           
+
+
+                 FOM Properties                 
+------------------------------------------------
+Average Revisit Time                            
+Minimum number of assets required: 1            
+Gaps at ends of analysis interval are considered
+Satisfaction: Less Than 10000.000000 sec        
+FOM value range check is not enabled.           
+
+
+Minimum (sec)    Maximum (sec)    Average (sec)
+-------------    -------------    -------------
+      628.103        14150.834         6535.169

@@ -1,0 +1,19 @@
+                                                                               6 Feb 2024 19:18:18
+Satellite-Satellite1101-To-Facility-JPL:  Access Summary Report
+
+
+Satellite1101-To-JPL
+--------------------
+                  Access        Start Time (UTCG)           Stop Time (UTCG)        Duration (sec)
+                  ------    ------------------------    ------------------------    --------------
+                       1    26 Dec 2023 19:50:12.065    26 Dec 2023 20:00:50.491           638.426
+                       2    26 Dec 2023 21:29:47.884    26 Dec 2023 21:35:46.327           358.443
+                       3    27 Dec 2023 06:48:13.834    27 Dec 2023 06:58:40.356           626.522
+                       4    27 Dec 2023 08:27:15.085    27 Dec 2023 08:35:17.091           482.007
+
+Global Statistics
+-----------------
+Min Duration           2    26 Dec 2023 21:29:47.884    26 Dec 2023 21:35:46.327           358.443
+Max Duration           1    26 Dec 2023 19:50:12.065    26 Dec 2023 20:00:50.491           638.426
+Mean Duration                                                                              526.349
+Total Duration                                                                            2105.398

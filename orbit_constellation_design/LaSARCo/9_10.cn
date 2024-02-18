@@ -1,0 +1,123 @@
+stk.v.12.0
+WrittenBy    STK_v12.6.0
+
+BEGIN Constellation
+
+    Name		 9_10
+    BEGIN Definition
+        Object		 Satellite/Satellite1101/Sensor/SAR1_FOV2
+        Object		 Satellite/Satellite1102/Sensor/SAR1_FOV3
+        Object		 Satellite/Satellite1103/Sensor/SAR1_FOV4
+        Object		 Satellite/Satellite1104/Sensor/SAR1_FOV5
+        Object		 Satellite/Satellite1105/Sensor/SAR1_FOV6
+        Object		 Satellite/Satellite1106/Sensor/SAR1_FOV7
+        Object		 Satellite/Satellite1107/Sensor/SAR1_FOV8
+        Object		 Satellite/Satellite1108/Sensor/SAR1_FOV9
+        Object		 Satellite/Satellite1109/Sensor/SAR1_FOV10
+        Object		 Satellite/Satellite1110/Sensor/SAR1_FOV11
+        Object		 Satellite/Satellite1201/Sensor/SAR1_FOV12
+        Object		 Satellite/Satellite1202/Sensor/SAR1_FOV13
+        Object		 Satellite/Satellite1203/Sensor/SAR1_FOV14
+        Object		 Satellite/Satellite1204/Sensor/SAR1_FOV15
+        Object		 Satellite/Satellite1205/Sensor/SAR1_FOV16
+        Object		 Satellite/Satellite1206/Sensor/SAR1_FOV17
+        Object		 Satellite/Satellite1207/Sensor/SAR1_FOV18
+        Object		 Satellite/Satellite1208/Sensor/SAR1_FOV19
+        Object		 Satellite/Satellite1209/Sensor/SAR1_FOV20
+        Object		 Satellite/Satellite1210/Sensor/SAR1_FOV21
+        Object		 Satellite/Satellite1301/Sensor/SAR1_FOV22
+        Object		 Satellite/Satellite1302/Sensor/SAR1_FOV23
+        Object		 Satellite/Satellite1303/Sensor/SAR1_FOV24
+        Object		 Satellite/Satellite1304/Sensor/SAR1_FOV25
+        Object		 Satellite/Satellite1305/Sensor/SAR1_FOV26
+        Object		 Satellite/Satellite1306/Sensor/SAR1_FOV27
+        Object		 Satellite/Satellite1307/Sensor/SAR1_FOV28
+        Object		 Satellite/Satellite1308/Sensor/SAR1_FOV29
+        Object		 Satellite/Satellite1309/Sensor/SAR1_FOV30
+        Object		 Satellite/Satellite1310/Sensor/SAR1_FOV31
+        Object		 Satellite/Satellite1401/Sensor/SAR1_FOV32
+        Object		 Satellite/Satellite1402/Sensor/SAR1_FOV33
+        Object		 Satellite/Satellite1403/Sensor/SAR1_FOV34
+        Object		 Satellite/Satellite1404/Sensor/SAR1_FOV35
+        Object		 Satellite/Satellite1405/Sensor/SAR1_FOV36
+        Object		 Satellite/Satellite1406/Sensor/SAR1_FOV37
+        Object		 Satellite/Satellite1407/Sensor/SAR1_FOV38
+        Object		 Satellite/Satellite1408/Sensor/SAR1_FOV39
+        Object		 Satellite/Satellite1409/Sensor/SAR1_FOV40
+        Object		 Satellite/Satellite1410/Sensor/SAR1_FOV41
+        Object		 Satellite/Satellite1501/Sensor/SAR1_FOV42
+        Object		 Satellite/Satellite1502/Sensor/SAR1_FOV43
+        Object		 Satellite/Satellite1503/Sensor/SAR1_FOV44
+        Object		 Satellite/Satellite1504/Sensor/SAR1_FOV45
+        Object		 Satellite/Satellite1505/Sensor/SAR1_FOV46
+        Object		 Satellite/Satellite1506/Sensor/SAR1_FOV47
+        Object		 Satellite/Satellite1507/Sensor/SAR1_FOV48
+        Object		 Satellite/Satellite1508/Sensor/SAR1_FOV49
+        Object		 Satellite/Satellite1509/Sensor/SAR1_FOV50
+        Object		 Satellite/Satellite1510/Sensor/SAR1_FOV51
+        Object		 Satellite/Satellite1601/Sensor/SAR1_FOV52
+        Object		 Satellite/Satellite1602/Sensor/SAR1_FOV53
+        Object		 Satellite/Satellite1603/Sensor/SAR1_FOV54
+        Object		 Satellite/Satellite1604/Sensor/SAR1_FOV55
+        Object		 Satellite/Satellite1605/Sensor/SAR1_FOV56
+        Object		 Satellite/Satellite1606/Sensor/SAR1_FOV57
+        Object		 Satellite/Satellite1607/Sensor/SAR1_FOV58
+        Object		 Satellite/Satellite1608/Sensor/SAR1_FOV59
+        Object		 Satellite/Satellite1609/Sensor/SAR1_FOV60
+        Object		 Satellite/Satellite1610/Sensor/SAR1_FOV61
+        Object		 Satellite/Satellite1701/Sensor/SAR1_FOV62
+        Object		 Satellite/Satellite1702/Sensor/SAR1_FOV63
+        Object		 Satellite/Satellite1703/Sensor/SAR1_FOV64
+        Object		 Satellite/Satellite1704/Sensor/SAR1_FOV65
+        Object		 Satellite/Satellite1705/Sensor/SAR1_FOV66
+        Object		 Satellite/Satellite1706/Sensor/SAR1_FOV67
+        Object		 Satellite/Satellite1707/Sensor/SAR1_FOV68
+        Object		 Satellite/Satellite1708/Sensor/SAR1_FOV69
+        Object		 Satellite/Satellite1709/Sensor/SAR1_FOV70
+        Object		 Satellite/Satellite1710/Sensor/SAR1_FOV71
+        Object		 Satellite/Satellite1801/Sensor/SAR1_FOV72
+        Object		 Satellite/Satellite1802/Sensor/SAR1_FOV73
+        Object		 Satellite/Satellite1803/Sensor/SAR1_FOV74
+        Object		 Satellite/Satellite1804/Sensor/SAR1_FOV75
+        Object		 Satellite/Satellite1805/Sensor/SAR1_FOV76
+        Object		 Satellite/Satellite1806/Sensor/SAR1_FOV77
+        Object		 Satellite/Satellite1807/Sensor/SAR1_FOV78
+        Object		 Satellite/Satellite1808/Sensor/SAR1_FOV79
+        Object		 Satellite/Satellite1809/Sensor/SAR1_FOV80
+        Object		 Satellite/Satellite1810/Sensor/SAR1_FOV81
+        Object		 Satellite/Satellite1901/Sensor/SAR1_FOV82
+        Object		 Satellite/Satellite1902/Sensor/SAR1_FOV83
+        Object		 Satellite/Satellite1903/Sensor/SAR1_FOV84
+        Object		 Satellite/Satellite1904/Sensor/SAR1_FOV85
+        Object		 Satellite/Satellite1905/Sensor/SAR1_FOV86
+        Object		 Satellite/Satellite1906/Sensor/SAR1_FOV87
+        Object		 Satellite/Satellite1907/Sensor/SAR1_FOV88
+        Object		 Satellite/Satellite1908/Sensor/SAR1_FOV89
+        Object		 Satellite/Satellite1909/Sensor/SAR1_FOV90
+        Object		 Satellite/Satellite1910/Sensor/SAR1_FOV91
+        Type		 Constellation
+        FromOperator		 Or
+        FromOrder		 1
+        ToOperator		 Or
+        ToOrder		 1
+        UseRoutingRulesFile		 No
+
+    END Definition
+
+    BEGIN Extensions
+
+        BEGIN ADFFileData
+        END ADFFileData
+
+        BEGIN Desc
+            BEGIN ShortText
+
+            END ShortText
+            BEGIN LongText
+
+            END LongText
+        END Desc
+
+    END Extensions
+
+END Constellation
